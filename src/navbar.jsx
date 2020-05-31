@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import styled from "styled-components";
+import aabb from "./index.png";
 import { fontFamily } from "@material-ui/system";
-import userlogodb from "./index (2).png";
+
 
 export default class Navbar extends Component {
   constructor(props) {
@@ -33,7 +34,7 @@ export default class Navbar extends Component {
     return (
       <Transition>
             <StyledNavbar className={this.state.show ? "active" : "hidden"}>
-                <img src={userlogodb} className="user" />
+                <img src={aabb} className="user" />
                 {/*<h2 style={{ color: 'white', fontFamily: 'Times New Roman', textAlign: "center" }} align="center">ENTER  SPARK  SQL  QUERY</h2>*/}
         </StyledNavbar>
       </Transition>
@@ -67,6 +68,5 @@ const StyledNavbar = styled.div`
   font-style: bold;
   fontFamily: "Times New Roman";
   font-size: 20px;
-  background-image: linear-gradient(270deg, Blue, White);
   z-index: 1000;
 `;

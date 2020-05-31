@@ -325,7 +325,7 @@ md = {
                 }
                 var dailySalesChart = new Chartist.Line('#dailySalesChart1', dataDailySalesChart, optionsDailySalesChart);
 
-                md.startAnimationForLineChart(dailySalesChart);
+                //md.startAnimationForLineChart(dailySalesChart);
             }
             /*if ($('#dailySalesChart2').length != 0) {
 
@@ -393,7 +393,7 @@ md = {
                 ];*/
                 var websiteViewsChart = Chartist.Line('#dailySalesChart3', dataWebsiteViewsChart, optionsWebsiteViewsChart);
 
-                md.startAnimationForLineChart(websiteViewsChart);
+                //md.startAnimationForLineChart(websiteViewsChart);
             }
 
             if ($('#dailySalesChart4').length != 0) {
@@ -419,7 +419,7 @@ md = {
 
                 var dailySalesChart = new Chartist.Line('#dailySalesChart4', dataDailySalesChart, optionsDailySalesChart);
 
-                md.startAnimationForLineChart(dailySalesChart);
+                //md.startAnimationForLineChart(dailySalesChart);
             }
 
             if ($('#dailySalesChart5').length != 0) {
@@ -446,7 +446,7 @@ md = {
 
                 var completedTasksChart = new Chartist.Line('#dailySalesChart5', dataCompletedTasksChart, optionsCompletedTasksChart);
 
-                md.startAnimationForLineChart(completedTasksChart);
+                //md.startAnimationForLineChart(completedTasksChart);
             }
 
             if ($('#dailySalesChart6').length != 0) {
@@ -481,7 +481,7 @@ md = {
                 ];*/
                 var websiteViewsChart = Chartist.Line('#dailySalesChart6', dataWebsiteViewsChart, optionsWebsiteViewsChart);
 
-                md.startAnimationForLineChart(websiteViewsChart);
+                //md.startAnimationForLineChart(websiteViewsChart);
             }
 
             if ($('#dailySalesChart7').length != 0) {
@@ -507,7 +507,7 @@ md = {
 
                 var dailySalesChart = new Chartist.Line('#dailySalesChart7', dataDailySalesChart, optionsDailySalesChart);
 
-                md.startAnimationForLineChart(dailySalesChart);
+                //md.startAnimationForLineChart(dailySalesChart);
             }
 
             if ($('#dailySalesChart8').length != 0) {
@@ -534,7 +534,7 @@ md = {
 
                 var completedTasksChart = new Chartist.Line('#dailySalesChart8', dataCompletedTasksChart, optionsCompletedTasksChart);
 
-                md.startAnimationForLineChart(completedTasksChart);
+                //md.startAnimationForLineChart(completedTasksChart);
             }
 
             /*if ($('#dailySalesChart9').length != 0) {

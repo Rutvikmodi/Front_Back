@@ -238,7 +238,7 @@ md = {
 
       var dailySalesChart = new Chartist.Line('#dailySales1Chart', dataDailySalesChart, optionsDailySalesChart);
 
-      md.startAnimationForLineChart(dailySalesChart);
+      //md.startAnimationForLineChart(dailySalesChart);
     }
 
     if ($('#dailySales2Chart').length != 0) {
@@ -270,7 +270,7 @@ md = {
       var completedTasksChart = new Chartist.Line('#dailySales2Chart', dataCompletedTasksChart, optionsCompletedTasksChart);
 
       // start animation for the Completed Tasks Chart - Line Chart
-      md.startAnimationForLineChart(completedTasksChart);
+      //md.startAnimationForLineChart(completedTasksChart);
     }
 
     if ($('#dailySales3Chart').length != 0) {
@@ -310,7 +310,7 @@ md = {
       var websiteViewsChart = Chartist.Bar('#dailySales3Chart', dataWebsiteViewsChart, optionsWebsiteViewsChart, responsiveOptions);
 
       //start animation for the Emails Subscription Chart
-      md.startAnimationForBarChart(websiteViewsChart);
+      //md.startAnimationForBarChart(websiteViewsChart);
     }
 
         if ($('#dailySales4Chart').length != 0) {

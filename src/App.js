@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import Navbar from "./navbar";
 import "./App.css";
 import userlogo from "./user.png";
-import userlogodb from "./db.png";
 import TextField from "@material-ui/core/TextField";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { makeStyles } from "@material-ui/core/styles";
@@ -107,7 +106,8 @@ export default class App extends Component {
                     <link rel="stylesheet" type="text/css" href="App.css" />
                     <div className="companybox">
                         <form onSubmit={this.submit} >
-                            <p style={{ color: 'white', fontFamily: 'Georgia' }}>ENTER SPARK SQL QUERY HERE :</p>
+                            <p style={{
+                                color: 'white', fontFamily: 'fantasy', fontSize: '20px' }}>SPARK EXECUTION PLAN FORM :</p>
                             <br></br>
                             <br></br>
                             <textarea
